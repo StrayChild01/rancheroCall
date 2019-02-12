@@ -44,3 +44,4 @@ ATH1
 - Para editar la configuración de ncid, se edita el archivo _/etc/ncid/ncid.conf_ (Dentro del repositorio)
 - Para la lista negra, se tiene que descomentar la línea que hace mención del archivo.
 - Se hacen pruebas.
+- Para que los cambios cambios en el _blacklist_ se vean reflejados, se tiene que reiniciar el servidor.
