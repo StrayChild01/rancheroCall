@@ -42,6 +42,7 @@ ATH1
 ```
 - CTRL+A y X, para salir y reniciar el módem.
 - Para editar la configuración de ncid, se edita el archivo _/etc/ncid/ncid.conf_ (Dentro del repositorio)
-- Para la lista negra, se tiene que descomentar la línea que hace mención del archivo.
+- Para que funcione el archivo de la lista negra, se descomenta la línea.
 - Se hacen pruebas.
-- Para que los cambios cambios en el _blacklist_ se vean reflejados, se tiene que reiniciar el servidor.
+- Para editar la lista negra se edita el archivo _/etc/ncid/ncidd.blacklist_
+- Para que los cambios hechos en _blacklist_ se vean reflejados, se tiene que reiniciar el servidor. ```sudo systemctl restart ncidd```
