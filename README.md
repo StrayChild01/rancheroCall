@@ -46,3 +46,11 @@ ATH1
 - Se hacen pruebas.
 - Para editar la lista negra se edita el archivo _/etc/ncid/ncidd.blacklist_
 - Para que los cambios hechos en _blacklist_ se vean reflejados, se tiene que reiniciar el servidor. ```sudo systemctl restart ncidd```
+
+### Actualización
+
+Para poder ver los cambios, hice un [notebook de python](Llamadas cobranza.ipynb "llamadas cobranza") para bajar y _parsear_ el archivo. Después de eso, genera un gráfico en HTML que luego se puede visualizar aquí:
+
+<iframe style="height:650px; width:900px;" src="https://straychild01.github.io/rancheroCall/index.html">
+	<b>No se puede ver el iFrame :(</b>
+</iframe>
